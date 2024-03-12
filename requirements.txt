@@ -1,4 +1,5 @@
 torch
 pytorch-metric-learning
 pandas
-finch
+finch-clust
+openpyxl
