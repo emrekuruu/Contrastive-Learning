@@ -3,3 +3,4 @@ pytorch-metric-learning
 pandas
 finch-clust
 openpyxl
+matplotlib
