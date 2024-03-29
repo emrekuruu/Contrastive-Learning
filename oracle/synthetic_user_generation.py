@@ -205,8 +205,6 @@ if __name__ == '__main__':
     food_dt_obj_file = f"fooddataset{dataset_code}_{data_random_state}_{test_size}_{min_feature_freq}_{diverse_data_size}.pkl"
     dataset = get_dataset(dataset_code, data_random_state, test_size, min_feature_freq, data_features, food_dt_obj_file, base=True)
 
-
-
     for random_state in range(5):
         
         # it can be used if data_features are only ingredients since synthetic user profiles are generated over ingredients
